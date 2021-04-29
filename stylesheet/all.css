@@ -1,0 +1,170 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #b60707;
+  font-family: 'Roboto', sans-serif;
+}
+
+.calculator {
+  width: 350px;
+  min-height: 525px;
+  background: #940404;
+  -webkit-box-shadow: 0px 20px 40px #fffdfd66;
+          box-shadow: 0px 20px 40px #88000066;
+  border-radius: 20px;
+}
+
+.calculator-monitor {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 16px 20px;
+  width: 350px;
+  min-height: 109px;
+  border-radius: 20px 20px 0 0;
+  background: #8b0000;
+}
+
+.calculator-storage {
+  color: #ffffff;
+  font-size: 19px;
+  word-break: break-all;
+  text-align: left;
+}
+
+.calculator-show {
+  color: rgb(255, 255, 255);
+  font-size: 56px;
+  word-break: break-all;
+  text-align: right;
+}
+
+.calculator-keyboard {
+  width: 350px;
+  height: 416px;
+  padding: 16px 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.btn {
+  width: 72px;
+  height: 64px;
+  background: #c50404 ;
+  border-radius: 100px;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #e77878be;
+}
+
+.btn-operator {
+  background: #c50404;
+  color: #ffffff;
+  border-radius: 100px;
+}
+
+.btn-reset, .btn-del {
+  color: #ffffff;
+}
+
+.btn-equal {
+  width: 72px;
+  background: #c50404;
+  border-radius: 100px;
+}
+
+.btn-equal:hover {
+  background: #c50404;
+}
+
+ style {
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #b60707;
+  font-family: 'Roboto', sans-serif;
+}
